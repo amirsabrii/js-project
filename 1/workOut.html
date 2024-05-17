@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>workOut js</title>
+    <link rel="stylesheet" href="./workOut.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>TO DO LIST</h1>
+        <form>
+            <input type="text" placeholder="search ..." class="to-do-input">
+        </form>
+    </header>
+    <main>
+            <h2 class="title-main">your list </h2>
+        <ul id="to-do-list">
+            <li class="to-do-item">
+                <span class="title">clean upyure room</span>
+                <button class="delet-btn">delet</button>
+            </li>
+             <li class="to-do-item">
+                <span class="title">find a motivational book for reading</span>
+                <button class="delet-btn">delet</button>
+            </li>
+            <li class="to-do-item">
+                <span class="title">go to the gym</span>
+                <button class="delet-btn">delet</button>
+            </li>
+            <li class="to-do-item">
+                <span class="title">set your goals</span>
+                <button class="delet-btn">delet</button>
+            </li>
+        </ul>
+    </main>
+    <section class="add-to-do">
+        <form id="add-form">
+            <input type="text" class="to-do-input" placeholder="...">
+            <button class="add-btn">add</button>
+        </form>
+    </section>
+
+
+
+
+
+ <div class="container2">
+<form class="form">
+    <h1>sign up</h1>
+    <input type="text" placeholder="username" id="userName">
+    <input type="text" placeholder="email" id="email">
+    <small id="email-eror"></small>
+    <input type="password" placeholder="password" id="password">
+    <input type="password" placeholder="password vrify" id="passwordVrify">
+    <small id="vrify-eror"></small>
+    <button type="submit" onclick="sendDta()">send</button>
+</form>
+</div> 
+</body>
+<script src="./workOut.js"></script>
+</html>
